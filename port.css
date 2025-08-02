@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+.main{
+    width: 100vw;
+    height: 50vh;
+    /*background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('background.jpg');*/
+    background: linear-gradient(to top, rgba(0,0,0, 0.5)50%, rgba(0,0,0,0.5)50%),url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 300px;
+    padding: 0px;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 1000;
+
+}
+.logo  .logoname{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-style: bold;
+    color: #0b0b0c;
+    margin-top: 20px;
+}
+
+.logo  .mylogo{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    
+    border-radius: 48%;
+    
+
+    
+}
+ .logo  a{
+    margin-left: 20px;
+    color: blueviolet;
+    border: #0b0b0c;
+    margin-top: 20px;
+}
+
+section{
+    min-height: 50vh;        
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      font-size: 12pt;
+      line-height: 2;
+      
+}
+
+#home { background: linear-gradient(to right, orange, red); }
+    #about { background: linear-gradient(to right, blue, purple); }
+    #projects { background: linear-gradient(to right, green, teal); }
+    #contact { background: linear-gradient(to right, gray, black); }
+
