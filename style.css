@@ -73,5 +73,6 @@ section{
 #home { background: linear-gradient(to right, orange, red); }
     #about { background: linear-gradient(to right, blue, purple); }
     #projects { background: linear-gradient(to right, green, teal); }
-    #contact { background: linear-gradient(to right, gray, black); }
+    #contactme { background: linear-gradient(to right, gray, black); }
+
 
